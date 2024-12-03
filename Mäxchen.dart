@@ -1,6 +1,6 @@
 void main() {
-  int a = 2;
-  int b = 6;
+  int a = 1;
+  int b = 2;
 
   if (a < b) {
     int temporary = a;
@@ -10,9 +10,9 @@ void main() {
 
   if (a == b) {
     print('Pasch $a');
-  } else if ((a == 2 && b == 1) || (a == 1 && b == 2)) {
+  } else if (a == 2 && b == 1) {
     print('Mäxchen');
   } else {
-    print('$a $b');
+    print('$a$b');
   }
 }
