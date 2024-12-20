@@ -1,10 +1,10 @@
-import '../models/todo.dart';
+import '../models/einnahmen.dart';
 
 abstract class DatabaseRepository {
   // Create
-  void addTodo(String id, Todo newTodo);
+  void addEinnahmen(String id, Todo newEinnahme);
   // Read
-  List<String> getAllTodoTitles();
+  List<String> getAllEinnahmenTitles();
   // Delete
-  void removeTodo(String id);
+  void removeEinnahme(String id);
 }

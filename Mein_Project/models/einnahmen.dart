@@ -1,8 +1,8 @@
-class Todo {
+class Einnahmen {
   String taskName;
   bool done;
 
-  Todo({
+  Einnahmen({
     required this.taskName,
     required this.done,
   });
