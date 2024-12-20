@@ -2,9 +2,9 @@ import '../models/einnahmen.dart';
 
 abstract class DatabaseRepository {
   // Create
-  void addEinnahmen(String id, Todo newEinnahme);
+  void addEinnahmen(String id, Einnahmen newEinnahme);
   // Read
   List<String> getAllEinnahmenTitles();
   // Delete
-  void removeEinnahme(String id);
+  void removeEinnahmen(String id);
 }
